@@ -6,7 +6,26 @@
 //
 
 import UIKit
+import StoreKit
+import UIKit 
+import Foundation 
 
+typealias Code = String 
+var code: Code = ""
+
+typealias address0 = [String: String]
+var address0: Address0 = ["": ""]
+
+// type aliase function, create 2 calls 
+typealias PromoCodeValidationFunction = ((String -> (Bool))?
+var validateFunction1: PromoCodeValidationFunction 
+ var validateFunction2: PromoCodeValidationFunction 
+                            
+
+var address: [String: String] = ["": ""]
+var address:[String: String]){
+
+}
 class Car{
     let make: String
     let color: String
