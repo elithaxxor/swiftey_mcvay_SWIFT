@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		655E4D8428349C3A00797FA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655E4D8328349C3A00797FA5 /* AppDelegate.swift */; };
+		655E4D8628349C3A00797FA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655E4D8528349C3A00797FA5 /* SceneDelegate.swift */; };
+		655E4D8828349C3A00797FA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655E4D8728349C3A00797FA5 /* ViewController.swift */; };
+		655E4D8B28349C3A00797FA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655E4D8928349C3A00797FA5 /* Main.storyboard */; };
+		655E4D8D28349C3B00797FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655E4D8C28349C3B00797FA5 /* Assets.xcassets */; };
+		655E4D9028349C3B00797FA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655E4D8E28349C3B00797FA5 /* LaunchScreen.storyboard */; };
+		655E4D9828349D9C00797FA5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 655E4D9728349D9C00797FA5 /* Podfile */; };
+		655E4D9A2834A0FC00797FA5 /* MessagesSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655E4D992834A0FC00797FA5 /* MessagesSetup.swift */; };
+		655E4D9D2834BAEC00797FA5 /* Category1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 655E4D9C2834BAEC00797FA5 /* Category1.gif */; };
+		655E4D9F2834BAF000797FA5 /* Sticker1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 655E4D9E2834BAF000797FA5 /* Sticker1.gif */; };
+		655E4DA92834BBED00797FA5 /* com_nobodylikesme_imessengerAppAudioUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 655E4DA82834BBED00797FA5 /* com_nobodylikesme_imessengerAppAudioUnit.m */; };
+		655E4DAD2834BBED00797FA5 /* DSPKernel.hpp in Resources */ = {isa = PBXBuildFile; fileRef = 655E4DAC2834BBED00797FA5 /* DSPKernel.hpp */; };
+		655E4DAF2834BBED00797FA5 /* DSPKernel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 655E4DAE2834BBED00797FA5 /* DSPKernel.mm */; };
+		655E4DB12834BBED00797FA5 /* BufferedAudioBus.hpp in Resources */ = {isa = PBXBuildFile; fileRef = 655E4DB02834BBED00797FA5 /* BufferedAudioBus.hpp */; };
+		655E4DB42834BBED00797FA5 /* com_nobodylikesme_imessengerAppDSPKernel.hpp in Resources */ = {isa = PBXBuildFile; fileRef = 655E4DB32834BBED00797FA5 /* com_nobodylikesme_imessengerAppDSPKernel.hpp */; };
+		655E4DB62834BBED00797FA5 /* com_nobodylikesme_imessengerAppDSPKernel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 655E4DB52834BBED00797FA5 /* com_nobodylikesme_imessengerAppDSPKernel.mm */; };
+		655E4DB92834BBED00797FA5 /* AudioUnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655E4DB82834BBED00797FA5 /* AudioUnitViewController.swift */; };
+		655E4DBB2834BBED00797FA5 /* com_nobodylikesme_imessengerAppAudioUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655E4DBA2834BBED00797FA5 /* com_nobodylikesme_imessengerAppAudioUnit.swift */; };
+		655E4DBD2834BBED00797FA5 /* com_nobodylikesme_imessengerAppParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655E4DBC2834BBED00797FA5 /* com_nobodylikesme_imessengerAppParameters.swift */; };
+		655E4DC12834BBED00797FA5 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 655E4DBF2834BBED00797FA5 /* MainInterface.storyboard */; };
+		655E4DC52834BBED00797FA5 /* com.nobodylikesme.imessengerApp.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 655E4DA42834BBEC00797FA5 /* com.nobodylikesme.imessengerApp.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		655E4DC32834BBED00797FA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 655E4D7828349C3A00797FA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 655E4DA32834BBEC00797FA5;
+			remoteInfo = com.nobodylikesme.imessengerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		655E4DC92834BBED00797FA5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				655E4DC52834BBED00797FA5 /* com.nobodylikesme.imessengerApp.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		655E4D8028349C3A00797FA5 /* imessengerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imessengerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		655E4D8328349C3A00797FA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		655E4D8528349C3A00797FA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		655E4D8728349C3A00797FA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		655E4D8A28349C3A00797FA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		655E4D8C28349C3B00797FA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		655E4D8F28349C3B00797FA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		655E4D9128349C3B00797FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		655E4D9728349D9C00797FA5 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		655E4D992834A0FC00797FA5 /* MessagesSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesSetup.swift; sourceTree = "<group>"; };
+		655E4D9C2834BAEC00797FA5 /* Category1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Category1.gif; sourceTree = "<group>"; };
+		655E4D9E2834BAF000797FA5 /* Sticker1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Sticker1.gif; sourceTree = "<group>"; };
+		655E4DA42834BBEC00797FA5 /* com.nobodylikesme.imessengerApp.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = com.nobodylikesme.imessengerApp.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		655E4DA72834BBED00797FA5 /* com_nobodylikesme_imessengerAppAudioUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_nobodylikesme_imessengerAppAudioUnit.h; sourceTree = "<group>"; };
+		655E4DA82834BBED00797FA5 /* com_nobodylikesme_imessengerAppAudioUnit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = com_nobodylikesme_imessengerAppAudioUnit.m; sourceTree = "<group>"; };
+		655E4DAC2834BBED00797FA5 /* DSPKernel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DSPKernel.hpp; sourceTree = "<group>"; };
+		655E4DAE2834BBED00797FA5 /* DSPKernel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DSPKernel.mm; sourceTree = "<group>"; };
+		655E4DB02834BBED00797FA5 /* BufferedAudioBus.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BufferedAudioBus.hpp; sourceTree = "<group>"; };
+		655E4DB22834BBED00797FA5 /* com_nobodylikesme_imessengerAppDSPKernelAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = com_nobodylikesme_imessengerAppDSPKernelAdapter.h; sourceTree = "<group>"; };
+		655E4DB32834BBED00797FA5 /* com_nobodylikesme_imessengerAppDSPKernel.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = com_nobodylikesme_imessengerAppDSPKernel.hpp; sourceTree = "<group>"; };
+		655E4DB52834BBED00797FA5 /* com_nobodylikesme_imessengerAppDSPKernel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = com_nobodylikesme_imessengerAppDSPKernel.mm; sourceTree = "<group>"; };
+		655E4DB82834BBED00797FA5 /* AudioUnitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitViewController.swift; sourceTree = "<group>"; };
+		655E4DBA2834BBED00797FA5 /* com_nobodylikesme_imessengerAppAudioUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = com_nobodylikesme_imessengerAppAudioUnit.swift; path = "Audio Unit/com_nobodylikesme_imessengerAppAudioUnit.swift"; sourceTree = "<group>"; };
+		655E4DBC2834BBED00797FA5 /* com_nobodylikesme_imessengerAppParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = com_nobodylikesme_imessengerAppParameters.swift; path = "Audio Unit/com_nobodylikesme_imessengerAppParameters.swift"; sourceTree = "<group>"; };
+		655E4DBE2834BBED00797FA5 /* com_nobodylikesme_imessengerApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "com_nobodylikesme_imessengerApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		655E4DC02834BBED00797FA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		655E4DC22834BBED00797FA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		655E4D7D28349C3A00797FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655E4DA12834BBEC00797FA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		655E4D7728349C3A00797FA5 = {
+			isa = PBXGroup;
+			children = (
+				655E4D8228349C3A00797FA5 /* imessengerApp */,
+				655E4DA52834BBED00797FA5 /* com.nobodylikesme.imessengerApp */,
+				655E4D8128349C3A00797FA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		655E4D8128349C3A00797FA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				655E4D8028349C3A00797FA5 /* imessengerApp.app */,
+				655E4DA42834BBEC00797FA5 /* com.nobodylikesme.imessengerApp.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		655E4D8228349C3A00797FA5 /* imessengerApp */ = {
+			isa = PBXGroup;
+			children = (
+				655E4D9B2834AECF00797FA5 /* Images */,
+				655E4D8328349C3A00797FA5 /* AppDelegate.swift */,
+				655E4D8528349C3A00797FA5 /* SceneDelegate.swift */,
+				655E4D8728349C3A00797FA5 /* ViewController.swift */,
+				655E4D8928349C3A00797FA5 /* Main.storyboard */,
+				655E4D8C28349C3B00797FA5 /* Assets.xcassets */,
+				655E4D8E28349C3B00797FA5 /* LaunchScreen.storyboard */,
+				655E4D9128349C3B00797FA5 /* Info.plist */,
+				655E4D9728349D9C00797FA5 /* Podfile */,
+				655E4D992834A0FC00797FA5 /* MessagesSetup.swift */,
+			);
+			path = imessengerApp;
+			sourceTree = "<group>";
+		};
+		655E4D9B2834AECF00797FA5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				655E4D9C2834BAEC00797FA5 /* Category1.gif */,
+				655E4D9E2834BAF000797FA5 /* Sticker1.gif */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		655E4DA52834BBED00797FA5 /* com.nobodylikesme.imessengerApp */ = {
+			isa = PBXGroup;
+			children = (
+				655E4DBA2834BBED00797FA5 /* com_nobodylikesme_imessengerAppAudioUnit.swift */,
+				655E4DBC2834BBED00797FA5 /* com_nobodylikesme_imessengerAppParameters.swift */,
+				655E4DBE2834BBED00797FA5 /* com_nobodylikesme_imessengerApp-Bridging-Header.h */,
+				655E4DBF2834BBED00797FA5 /* MainInterface.storyboard */,
+				655E4DC22834BBED00797FA5 /* Info.plist */,
+				655E4DA62834BBED00797FA5 /* Audio Unit */,
+				655E4DAA2834BBED00797FA5 /* DSP */,
+				655E4DB72834BBED00797FA5 /* UI */,
+			);
+			path = com.nobodylikesme.imessengerApp;
+			sourceTree = "<group>";
+		};
+		655E4DA62834BBED00797FA5 /* Audio Unit */ = {
+			isa = PBXGroup;
+			children = (
+				655E4DA72834BBED00797FA5 /* com_nobodylikesme_imessengerAppAudioUnit.h */,
+				655E4DA82834BBED00797FA5 /* com_nobodylikesme_imessengerAppAudioUnit.m */,
+			);
+			path = "Audio Unit";
+			sourceTree = "<group>";
+		};
+		655E4DAA2834BBED00797FA5 /* DSP */ = {
+			isa = PBXGroup;
+			children = (
+				655E4DB32834BBED00797FA5 /* com_nobodylikesme_imessengerAppDSPKernel.hpp */,
+				655E4DB52834BBED00797FA5 /* com_nobodylikesme_imessengerAppDSPKernel.mm */,
+				655E4DAB2834BBED00797FA5 /* Helpers */,
+			);
+			path = DSP;
+			sourceTree = "<group>";
+		};
+		655E4DAB2834BBED00797FA5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				655E4DAC2834BBED00797FA5 /* DSPKernel.hpp */,
+				655E4DAE2834BBED00797FA5 /* DSPKernel.mm */,
+				655E4DB02834BBED00797FA5 /* BufferedAudioBus.hpp */,
+				655E4DB22834BBED00797FA5 /* com_nobodylikesme_imessengerAppDSPKernelAdapter.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		655E4DB72834BBED00797FA5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				655E4DB82834BBED00797FA5 /* AudioUnitViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		655E4D7F28349C3A00797FA5 /* imessengerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655E4D9428349C3B00797FA5 /* Build configuration list for PBXNativeTarget "imessengerApp" */;
+			buildPhases = (
+				655E4D7C28349C3A00797FA5 /* Sources */,
+				655E4D7D28349C3A00797FA5 /* Frameworks */,
+				655E4D7E28349C3A00797FA5 /* Resources */,
+				655E4DC92834BBED00797FA5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				655E4DC42834BBED00797FA5 /* PBXTargetDependency */,
+			);
+			name = imessengerApp;
+			productName = imessengerApp;
+			productReference = 655E4D8028349C3A00797FA5 /* imessengerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		655E4DA32834BBEC00797FA5 /* com.nobodylikesme.imessengerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 655E4DC62834BBED00797FA5 /* Build configuration list for PBXNativeTarget "com.nobodylikesme.imessengerApp" */;
+			buildPhases = (
+				655E4DA02834BBEC00797FA5 /* Sources */,
+				655E4DA12834BBEC00797FA5 /* Frameworks */,
+				655E4DA22834BBEC00797FA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = com.nobodylikesme.imessengerApp;
+			productName = com.nobodylikesme.imessengerApp;
+			productReference = 655E4DA42834BBEC00797FA5 /* com.nobodylikesme.imessengerApp.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		655E4D7828349C3A00797FA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					655E4D7F28349C3A00797FA5 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					655E4DA32834BBEC00797FA5 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 655E4D7B28349C3A00797FA5 /* Build configuration list for PBXProject "imessengerApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 655E4D7728349C3A00797FA5;
+			productRefGroup = 655E4D8128349C3A00797FA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				655E4D7F28349C3A00797FA5 /* imessengerApp */,
+				655E4DA32834BBEC00797FA5 /* com.nobodylikesme.imessengerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		655E4D7E28349C3A00797FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655E4D9D2834BAEC00797FA5 /* Category1.gif in Resources */,
+				655E4D9028349C3B00797FA5 /* LaunchScreen.storyboard in Resources */,
+				655E4D9F2834BAF000797FA5 /* Sticker1.gif in Resources */,
+				655E4D8D28349C3B00797FA5 /* Assets.xcassets in Resources */,
+				655E4D9828349D9C00797FA5 /* Podfile in Resources */,
+				655E4D8B28349C3A00797FA5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655E4DA22834BBEC00797FA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655E4DAD2834BBED00797FA5 /* DSPKernel.hpp in Resources */,
+				655E4DC12834BBED00797FA5 /* MainInterface.storyboard in Resources */,
+				655E4DB12834BBED00797FA5 /* BufferedAudioBus.hpp in Resources */,
+				655E4DB42834BBED00797FA5 /* com_nobodylikesme_imessengerAppDSPKernel.hpp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		655E4D7C28349C3A00797FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655E4D8828349C3A00797FA5 /* ViewController.swift in Sources */,
+				655E4D8428349C3A00797FA5 /* AppDelegate.swift in Sources */,
+				655E4D8628349C3A00797FA5 /* SceneDelegate.swift in Sources */,
+				655E4D9A2834A0FC00797FA5 /* MessagesSetup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		655E4DA02834BBEC00797FA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655E4DAF2834BBED00797FA5 /* DSPKernel.mm in Sources */,
+				655E4DBB2834BBED00797FA5 /* com_nobodylikesme_imessengerAppAudioUnit.swift in Sources */,
+				655E4DB92834BBED00797FA5 /* AudioUnitViewController.swift in Sources */,
+				655E4DBD2834BBED00797FA5 /* com_nobodylikesme_imessengerAppParameters.swift in Sources */,
+				655E4DB62834BBED00797FA5 /* com_nobodylikesme_imessengerAppDSPKernel.mm in Sources */,
+				655E4DA92834BBED00797FA5 /* com_nobodylikesme_imessengerAppAudioUnit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		655E4DC42834BBED00797FA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 655E4DA32834BBEC00797FA5 /* com.nobodylikesme.imessengerApp */;
+			targetProxy = 655E4DC32834BBED00797FA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		655E4D8928349C3A00797FA5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				655E4D8A28349C3A00797FA5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		655E4D8E28349C3B00797FA5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				655E4D8F28349C3B00797FA5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		655E4DBF2834BBED00797FA5 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				655E4DC02834BBED00797FA5 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		655E4D9228349C3B00797FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		655E4D9328349C3B00797FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		655E4D9528349C3B00797FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PCTB5RL5K6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = imessengerApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nobodylikesme.imessengerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		655E4D9628349C3B00797FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PCTB5RL5K6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = imessengerApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nobodylikesme.imessengerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		655E4DC72834BBED00797FA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PCTB5RL5K6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = com.nobodylikesme.imessengerApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = com.nobodylikesme.imessengerApp;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nobodylikesme.imessengerApp.com-nobodylikesme-imessengerApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "com.nobodylikesme.imessengerApp/com_nobodylikesme_imessengerApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		655E4DC82834BBED00797FA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PCTB5RL5K6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = com.nobodylikesme.imessengerApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = com.nobodylikesme.imessengerApp;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nobodylikesme.imessengerApp.com-nobodylikesme-imessengerApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "com.nobodylikesme.imessengerApp/com_nobodylikesme_imessengerApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		655E4D7B28349C3A00797FA5 /* Build configuration list for PBXProject "imessengerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655E4D9228349C3B00797FA5 /* Debug */,
+				655E4D9328349C3B00797FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655E4D9428349C3B00797FA5 /* Build configuration list for PBXNativeTarget "imessengerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655E4D9528349C3B00797FA5 /* Debug */,
+				655E4D9628349C3B00797FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		655E4DC62834BBED00797FA5 /* Build configuration list for PBXNativeTarget "com.nobodylikesme.imessengerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				655E4DC72834BBED00797FA5 /* Debug */,
+				655E4DC82834BBED00797FA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 655E4D7828349C3A00797FA5 /* Project object */;
+}
